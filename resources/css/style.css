@@ -7,6 +7,10 @@ body {
     margin: 0;
 }
 
+p {
+    margin: 0;
+}
+
 h2, h4 {
     margin: 0px;
     padding: 10px;
@@ -52,6 +56,8 @@ h2, h4 {
     width: 1200px;
     margin: 0 auto;
     padding-top: 69px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .missiondiv {
@@ -69,3 +75,30 @@ h2, h4 {
     background-color: black;
     width: 100%;
 }
+
+.teamonth {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 700px;
+    padding-top: 70px;
+}
+
+.teatiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.tileimg {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+}
+
