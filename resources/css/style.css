@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    background-color: black;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+}
+
+.logodiv {
+    display: flex;
+
+    justify-content: flex-start;
+    flex-grow: 1;
+    padding-left: 10px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.navdiv {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+.navitem {
+    padding-right: 20px;
+    color: seashell ;
+    text-decoration: underline;
+}
