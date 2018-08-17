@@ -7,21 +7,17 @@ body {
     text-align: center;
     margin: 0;
 }
-
 p {
     margin: 0;
 }
-
 h2, h4 {
     margin: 0px;
     padding: 10px;
 }
-
 h3 {
     margin: 0px;
     padding: 0px;
 }
-
 .navbar {
     display: flex;
     position: fixed;
@@ -32,7 +28,6 @@ h3 {
     align-items: center;
     z-index: 1;
 }
-
 .logodiv {
     display: flex;
 
@@ -40,23 +35,19 @@ h3 {
     flex-grow: 1;
     padding-left: 10px;
 }
-
 .logo {
     height: 50px;
 }
-
 .navdiv {
     display: flex;
     justify-content: flex-end;
     color: white;
 }
-
 .navitem {
     padding-right: 20px;
     color: seashell ;
     text-decoration: underline;
 }
-
 .content {
     display: flex;
     width: 1200px;
@@ -65,7 +56,6 @@ h3 {
     flex-direction: column;
     align-items: center;
 }
-
 .missiondiv {
     display: flex;
     background-image: url(../media/img-mission-background.jpg);
@@ -73,14 +63,12 @@ h3 {
     height: 700px;
     align-items: center;
 }
-
 .missiontext {
     display: flex;
     flex-direction: column;
     background-color: black;
     width: 100%;
 }
-
 .teamonthdiv {
     display: flex;
     flex-direction: column;
@@ -88,25 +76,21 @@ h3 {
     height: 700px;
     padding-top: 70px;
 }
-
 .teatiles {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-
 .tile {
     display: flex;
     flex-direction: column;
     margin: 5px;
 }
-
 .tileimg {
     width: 300px;
     height: 200px;
     padding: 10px;
 }
-
 .locationdiv {
     display: flex;
     flex-direction: column;
@@ -116,13 +100,10 @@ h3 {
     justify-content: center;
     align-items: center;
 }
-
 .locationtiles {
     display: flex;
     flex-wrap: wrap;
 }
-
-
 .loctile {
     display: flex;
     flex-direction: column;
@@ -133,15 +114,11 @@ h3 {
     opacity: 1;
     justify-content: space-around;
 }
-
 .company {
-    display: flex;
-    flex-direction: column;
     width: 100%;
     height: 200px;
     align-items: center;
 }
-
 .footer {
     display: flex;
     justify-content: flex-start;
